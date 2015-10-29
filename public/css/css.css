@@ -1,0 +1,170 @@
+html{height: auto; min-height: 100%;}
+body{
+	font-family: "Helvetica";
+	height: auto;
+	min-height: 100%;
+	background-image: url('../images/home/barra-lateral.png');
+	background-size: contain;
+}
+hr{color: #998100; height: 1px; background-color: #998100;}
+.container {background: #fff;}
+.container > * {background: #fff;border:none;}
+.rojoValsan{color: #E8001C;}
+.navbar{border-radius: 0; padding-top: 30px;}
+.nav > li{background-color: #E8001C; font-family: "Helvetica"; }
+.nav-margintop{margin-top: 40px;}
+.bordeIzquierdoRedondo{
+	border-top-left-radius:2em;
+	border-bottom-left-radius:2em;
+}
+.bordeDerechoRedondo, .open {
+	border-top-right-radius:2em !important;
+	border-bottom-right-radius:2em !important;
+}
+.navbar-default .navbar-nav > li > a{color: #fff;}
+.navbar-default .navbar-nav > li > a:hover{color: #fff;}
+.breadcrumb{background: #fff; text-align: left;}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus{
+	color: #fff;
+	background: #E8001C;
+	border-radius: 2em;
+}
+.home-modulos{height: 205px; margin-bottom: 0px;}
+.home-modulos img{width: 100%;}
+.home-modulos-span{
+    background-color: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.5);
+    color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    color: #fff;
+    font-size: 1.5em;
+    /*display: none;*/
+    height: 35px !important;
+    margin-top: 167px !important;
+  	transition: all 0.5s ease;   
+}
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next{
+	position: absolute;
+	right: 15px;
+}
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev{
+	position: absolute;
+	left: 15px;	
+}
+.carousel-indicators{
+	display: none;
+}
+#home-modulo-1{background-image: url('../images/home/modulo-1.png'); background-repeat: no-repeat; background-position: center; }
+#home-modulo-2{background-image: url('../images/home/modulo-2.png'); background-repeat: no-repeat; background-position: center; }
+#home-modulo-3{background-image: url('../images/home/modulo-3.png'); background-repeat: no-repeat; background-position: center; }
+#home-modulo-3a{background-image: url('../images/home/aviso.png'); background-repeat: no-repeat; background-position: center; height:102.5px; }
+#home-modulo-3b{background-image: url('../images/home/facebook.png'); background-repeat: no-repeat; background-position: center; height:102.5px; }
+#home-modulo-3c{background-image: url('../images/home/twitter.png'); background-repeat: no-repeat; background-position: center; height:102.5px; }
+#home-mapaSitio > li > a{color: #E8001C;}
+#logoValsanLi{background-color: transparent; padding:0 40px}
+#home-modulos{margin-top: 20px;}
+#home-linea-footer{
+	background-image: url('../images/home/barra-footer.png');
+	height: 15px;
+	margin-top: 20px;
+}
+#home-footer{margin-top: 10px; padding: 0;}
+#home-footer-logos{border-right: 1px solid #E8001C; padding-top: 20px;}
+#myCarousel{margin-top: 50px; margin-bottom: 30px;}
+/*********** productos*********/
+.cajaProductos{
+	margin: 20px 0px;
+}
+.caja_producto_titulo_rojo, .caja_producto_titulo_azul, .caja_producto_titulo_verde{
+	padding: 10px;
+	border:2px solid #998100;
+	border-radius: 25px;
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+	margin-bottom: 25px;
+}
+.caja_producto_titulo_rojo{	background-color: #E8001C;}
+.caja_producto_titulo_azul{	background-color: #0E76BC;}
+.caja_producto_titulo_verde{ background-color: #BEDE92;}
+.caja_producto_rojo,.caja_producto_azul,.caja_producto_verde{
+	cursor: pointer;
+	border:2px solid #998100;
+	border-radius: 25px;
+	text-align: center;
+	margin-bottom: 15px;
+	padding:5px;
+}
+.caja_producto_rojo{color: #E8001C;}
+.caja_producto_azul{color: #0E76BC;}
+.caja_producto_verde{color: #FFFFFF; background-color: #BEDE92}
+.presentacion h1{ color: #E8001C;}
+.presentacion p{ font-size: 1.3em; text-align: justify;}
+.category-header{
+	height: 125px;
+	margin-top: 20px;
+	border-radius: 20px;
+	color: #fff;
+	padding: 0px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	padding-top: 22px;
+}
+.product_description_box{	padding: 30px 10px;}
+.presentacion p,#description p, #description ul > li, #aviso p {color:#6D6E70; font-size: 1.3em; text-align: justify;}
+#description h1{color: #E8001C; margin-bottom: 10px;}
+.prox h1{color: #E8001C}
+/****************CONTACTO***************/
+#formulario{padding: 0;}
+#formulario > div {padding: 0;}
+#contactoForm, #contactoDatos{margin-top: 10px; margin-bottom: 20px}
+form{margin-top: 20px;}
+#contactoForm label { color: #6D6E70; padding: 0;}
+#contactoForm h2{color: #E8001C}
+#contactoDatos h3{font-size: 18px; text-align: center; margin-top:80px; margin-bottom: 30px; color:#6D6E70;}
+#contactoDatos p{font-size: 16px; color: #6D6E70; line-height: 2em;}
+.form-control{background: #CED1D0;}
+input[type="submit"]{padding: 5px 20px; font-weight: bold; font-size: 1.2em; color: #fff; background-color:#E8001C; 
+	padding: 10px 20px;
+	border:2px solid #998100;
+	border-radius: 25px;
+	text-align: center; 
+}
+.error{font-style: italic; color:#998100; text-align: right;}
+#gracias_msg h2{ text-align: center; color:#E8001C; margin-top: 50px; margin-bottom: 50px;}
+#gracias_msg h3{text-align: center; color:#998100; margin-bottom: 50px; }
+
+/****************DISTRIBUCION***************/
+
+#distribucionInfo h2{color: #E8001C; margin-bottom: 10px;}
+#aviso h2{color: #E8001C; margin-bottom: 10px;}
+#distribucionInfo h3{font-size: 20px; margin-bottom: 50px; color: #E8001C;}
+#distribucionInfo p{ font-size: 18px; text-align: justify; line-height: 30px; color:#6D6E70;}
+#distribucionInfo, #distribucionImg{margin-top: 70px; margin-bottom: 50px}
+
+/****************QUIENES SOMOS***************/
+#quienes_somos h2{color: #E8001C; margin-bottom: 10px;}
+#quienes_somos p{font-size: 18px; text-align: justify; line-height: 30px; color:#6D6E70;}
+#quienes_somos label{font-size: 18px; font-weight: normal; text-align: justify; line-height: 30px; color:#6D6E70;}
+#quienes_img{margin-top: 115px;}
+.quienes_somos_lista{margin-top: 70px;}
+#logoResponsive{display: none;}
+
+/*******************************/
+@media (max-width: 1000px) {
+	.bordeIzquierdoRedondo{
+		border-top-left-radius:0;
+		border-bottom-left-radius:0;
+	}
+	.bordeDerechoRedondo{
+		border-top-right-radius:0;
+		border-bottom-right-radius:0;
+	}
+	#quienes_img{display: none;}
+	#logoValsanLi{display: none;}
+	#logoResponsive{display: block;}
+	#bs-example-navbar-collapse-1{background-color: #E8001C;}
+	.container-fluid{padding:0;}
+	#home-footer-logos{border: none;}
+}
